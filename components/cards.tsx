@@ -57,7 +57,7 @@ function Card({
     <div
       className={`pl-4 md:pl-7 pb-12 md:pb-16 pt-[8rem] pr-5 md:pr-[4rem] xl:pr-[8rem] w-full rounded-[1.25rem] ${cardColor}`}
     >
-      <div className="w-full lg:w-[23rem] xl:w-[26rem] h-full md:h-[13rem]">
+      <div className="w-full lg:w-[23rem] xl:w-[26rem] h-full md:h-[13rem] flex flex-col gap-y-4 md:gap-y-0 justify-between">
         <div>
           <Image src={icon} alt="icon" width={4 * 16} height={4 * 16} />
         </div>
@@ -73,7 +73,7 @@ function Card({
 function Cards() {
   return (
     <section className="mt-8 md:mt-16 mb-28">
-      <h2 className="font-bold text-2xl md:text-4xl xl:text-6xl">
+      <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] xl:text-[3.75rem] leading-[2.1rem] md:leading-[3.2rem] xl:leading-[4.5rem]">
         Moving you beyond <span className="text-blue">financial</span>{" "}
         <span className="text-blue">inclusion</span>, through{" "}
         <span className="text-orange">financial</span>{" "}

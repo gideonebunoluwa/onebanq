@@ -24,7 +24,7 @@ function Hero() {
       ></div>
       <div className="container flex flex-col lg:flex-row lg:justify-between gap-y-20 items-center relative">
         <div className="flex flex-col items-center lg:items-start gap-6 mt-0 lg:mt-12">
-          <h1 className="font-bold text-[2.5rem] md:text-5xl xl:text-6xl text-center lg:text-left w-full md:w-[90%] xl:w-[85%] leading-[3rem] md:leading-normal lg:leading-[3.8rem]">
+          <h1 className="font-bold text-[2.5rem] md:text-[3rem] xl:text-[3.75rem] text-center lg:text-left w-full md:w-[90%] xl:w-[85%] leading-[3rem] md:leading-[3.5rem] lg:leading-[4.3rem]">
             Custom <span className="text-green">financial</span>{" "}
             <span className="text-green">solutions</span> tailored to your
             needs.
