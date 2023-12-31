@@ -16,12 +16,14 @@ export default function Home() {
   return (
     <main className={`${spaceGrotesk.className}`}>
       <Header />
-      <Hero />
-      <div className={"container"}>
-        <Cards />
-        <Financial color="bg-green" />
+      <div className="relative">
+        <Hero />
+        <div className={"container"}>
+          <Cards />
+          <Financial color="bg-green" />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </main>
   );
 }
