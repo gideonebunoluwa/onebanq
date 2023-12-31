@@ -34,6 +34,7 @@ function Hero() {
             secure platform.
           </p>
           <button
+             id="hero_join-waitlist-button"
             className={`py-[0.62rem] px-8 w-fit rounded-[1.25rem] bg-light_theme_primary text-white text-base font-bold mt-4`}
           >
             Join the Waitlist

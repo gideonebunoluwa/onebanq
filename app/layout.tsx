@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
-      <Script src="https://cdn.pagesense.io/js/onebanq/2169519fac2b4fc090e46a787cedd09c.js" />
+      <Script src="https://cdn.pagesense.io/js/oneban1/ec06a15d3c744f338874558128b59410.js" />
     </html>
   )
 }

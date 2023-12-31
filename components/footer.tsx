@@ -56,15 +56,15 @@ function Footer() {
           </div>
         </div>
         <div className="mt-[4.12rem] hidden md:flex items-center gap-8">
-          <Link href={"/privacy"} className="font-bold text-white text-lg">
+          <Link id="privacy" href={"/privacy"} className="font-bold text-white text-lg">
             Privacy
           </Link>
           <div className="text-base text-[#878787] font-normal">|</div>
-          <Link href={"/terms-of-use"} className="font-bold text-white text-lg">
+          <Link id="terms-of-use" href={"/terms-of-use"} className="font-bold text-white text-lg">
             Terms of use
           </Link>
           <div className="text-base text-[#878787] font-normal">|</div>
-          <Link href={"/legal"} className="font-bold text-white text-lg">
+          <Link id="legal" href={"/legal"} className="font-bold text-white text-lg">
             Legal
           </Link>
         </div>

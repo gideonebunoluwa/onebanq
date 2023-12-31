@@ -21,6 +21,7 @@ function Header() {
           <Image src={Logo} alt="logo" width={7.85 * 16} height={1.875 * 16} />
         </Link>
         <button
+          id="header_join-waitlist-button"
           className={`${spaceGrotesk.className} py-[0.62rem] px-4 rounded-[1.25rem] bg-light_theme_primary text-white text-base font-bold`}
         >
           Join the Waitlist
