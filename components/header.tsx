@@ -3,6 +3,7 @@ import Image from "next/image";
 import Logo from "@/public/images/OneBanq_logo.svg";
 import { Space_Grotesk } from "next/font/google";
 import Link from "next/link";
+import Button from "./ui/button";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -20,12 +21,13 @@ function Header() {
         <Link href={"/"} className="md:hidden">
           <Image src={Logo} alt="logo" width={7.85 * 16} height={1.875 * 16} />
         </Link>
-        <button
+        <Button location="header" />
+        {/* <button
           id="header_join-waitlist-button"
           className={`${spaceGrotesk.className} py-[0.62rem] px-4 rounded-[1.25rem] bg-light_theme_primary text-white text-base font-bold`}
         >
           Join the Waitlist
-        </button>
+        </button> */}
       </div>
     </header>
   );
