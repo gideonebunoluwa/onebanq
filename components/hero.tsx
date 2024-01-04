@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import heroCard from "@/public/images/hero_card.svg";
 import phone from "@/public/images/hero_phone.svg";
+import Button from "./ui/button";
 
 function Hero() {
   return (
@@ -33,12 +34,9 @@ function Hero() {
             Save money, stay organized, live better and free; all from a single,
             secure platform.
           </p>
-          <button
-             id="hero_join-waitlist-button"
-            className={`py-[0.62rem] px-8 w-fit rounded-[1.25rem] bg-light_theme_primary text-white text-base font-bold mt-4`}
-          >
-            Join the Waitlist
-          </button>
+          <div className="mt-4">
+            <Button location="other" />
+          </div>
         </div>
         <div className="hidden md:flex lg:hidden xl:flex items-end shrink-0 mr-16 mt-5">
           <div className="-mr-64 -mb-8 z-10">

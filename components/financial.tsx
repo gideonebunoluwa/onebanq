@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import phone from "@/public/images/phone_mockup.svg";
+import Button from "./ui/button";
 
 function Financial({ color }: { color: string }) {
   return (
@@ -16,11 +17,9 @@ function Financial({ color }: { color: string }) {
           spending patterns while staying organized from a single secure
           platform
         </p>
-        <button
-          className={`py-[0.62rem] px-8 w-fit rounded-[1.25rem] bg-light_theme_primary text-white text-base font-bold xl:mt-12`}
-        >
-          Join the Waitlist
-        </button>
+        <div className="xl:mt-12">
+          <Button location="other" />
+        </div>
       </div>
       <div className="shrink-0">
         <Image
