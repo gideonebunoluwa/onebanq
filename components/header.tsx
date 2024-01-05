@@ -22,8 +22,8 @@ function Header() {
             width={10 * 16}
             height={3.5 * 16}
             priority
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkqD/3HwAEIgJOQoC2XQAAAABJRU5ErkJggg=="
+            // placeholder="blur"
+            // blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkqD/3HwAEIgJOQoC2XQAAAABJRU5ErkJggg=="
           />
         </Link>
         <Link href={"/"} className="md:hidden">
