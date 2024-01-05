@@ -63,10 +63,10 @@ function Footer() {
           <Link id="terms-of-use" href={"/terms-of-use"} className="font-bold text-white text-lg">
             Terms of use
           </Link>
-          <div className="text-base text-[#878787] font-normal">|</div>
+          {/* <div className="text-base text-[#878787] font-normal">|</div>
           <Link id="legal" href={"/legal"} className="font-bold text-white text-lg">
             Legal
-          </Link>
+          </Link> */}
         </div>
         <div
           className={`mt-[4.12rem] text-[#BDBDBD] font-normal text-sm ${poppins.className}`}
