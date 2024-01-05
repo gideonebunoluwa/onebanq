@@ -33,7 +33,7 @@ function Content() {
         website (such as theonebanq.com), our mobile apps, and/or any related
         services, sales, marketing or events (we refer to them collectively in
         this privacy policy as the{" "}
-        <span className="font-bold">"Platforms"</span>).
+        <span className="font-bold">&ldquo;Platforms&quot;</span>).
       </p>
       <section className="flex flex-col gap-3">
         <h2 className="font-bold text-lg">
@@ -248,14 +248,14 @@ function Content() {
         </p>
         <p>
           <span className="font-bold">Zoho Apptics:</span> We use Zoho Apptics
-          in order to better understand our users' needs and to optimize this
+          in order to better understand our users&apos; needs and to optimize this
           service and experience. Hotjar is a technology service that helps us
-          better understand our users' experience (e.g. how much time they spend
+          better understand our users&apos; experience (e.g. how much time they spend
           on which screens, which links they choose to click, what users do and
-          don't like, etc.) and this enables us to build and maintain our
+          don&apos;t like, etc.) and this enables us to build and maintain our
           service with user feedback. Zoho Apptics uses cookies and other
-          technologies to collect data on our users' behavior and their devices.
-          This includes a device's IP address (processed during your session and
+          technologies to collect data on our users&apos; behavior and their devices.
+          This includes a device&apos;s IP address (processed during your session and
           stored in a de-identified form), device screen size, device type
           (unique device identifiers), browser information, geographic location
           (country only), and the preferred language used to display our
