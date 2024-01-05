@@ -46,6 +46,7 @@ function Hero() {
               width={36.13831 * 16}
               height={9.97081 * 16}
               className="border"
+              priority
             />
           </div>
           <div>
@@ -54,6 +55,7 @@ function Hero() {
               alt="phone"
               width={11.77225 * 16}
               height={32.41469 * 16}
+              priority
             />
           </div>
         </div>
@@ -65,6 +67,7 @@ function Hero() {
               width={32 * 16}
               height={9.97081 * 16}
               className="border"
+              priority
             />
           </div>
           <div>
@@ -73,6 +76,7 @@ function Hero() {
               alt="phone"
               width={10 * 16}
               height={32.41469 * 16}
+              priority
             />
           </div>
         </div>

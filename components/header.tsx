@@ -16,7 +16,15 @@ function Header() {
     <header className="isolate sticky top-0 w-full z-20 bg-white">
       <div className="container py-6 flex justify-between items-center w-full">
         <Link href={"/"} className="hidden md:flex">
-          <Image src={Logo} alt="logo" width={10 * 16} height={3.5 * 16} />
+          <Image
+            src={Logo}
+            alt="logo"
+            width={10 * 16}
+            height={3.5 * 16}
+            priority
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkqD/3HwAEIgJOQoC2XQAAAABJRU5ErkJggg=="
+          />
         </Link>
         <Link href={"/"} className="md:hidden">
           <Image src={Logo} alt="logo" width={7.85 * 16} height={1.875 * 16} />
