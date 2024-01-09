@@ -1,5 +1,5 @@
-import type { Metadata } from 'next'
-import Content from "@/components/Privacy/Content";
+import type { Metadata } from "next";
+import Content from "@/components/Terms-of-use/Content";
 import Hero from "@/components/Privacy/Hero";
 import Financial from "@/components/financial";
 import Footer from "@/components/footer";
@@ -8,7 +8,7 @@ import heroImage from "@/public/images/terms_hero.svg";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Privacy",
+  title: "Terms of use",
 };
 
 function Page() {

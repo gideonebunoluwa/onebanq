@@ -7,10 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    template: "OneBanq | %s",
-    default: "OneBanq",
+    template: "OneBanq | The Future of Credit - Zero Interest on Cards | %s",
+    default: "OneBanq | The Future of Credit - Zero Interest on Cards",
   },
-  description: "ONEBANQ  | The Future of Credit - Zero Interest on Cards",
+  description:
+    "ONEBANQ Technologies Limited is a financial technology company that provides innovative, affordable, and accessible financial services to individuals and businesses in Nigeria. We use technology to streamline and automate our processes, which allows us to offer our services at a lower cost than traditional financial institutions.",
   keywords: [
     "OneBanq",
     "Credit",
