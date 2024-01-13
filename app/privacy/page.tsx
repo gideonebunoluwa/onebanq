@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Privacy',
+  title: 'Privacy Policy',
 };
 
 function Privacy() {
