@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://theonebanq.com/"),
   openGraph: {
-    title: "OneBanq",
+    title: "OneBanq | The Future of Credit - Zero Interest on Cards",
     description:
       "ONEBANQ Technologies Limited is a financial technology company that provides innovative, affordable, and accessible financial services to individuals and businesses in Nigeria. We use technology to streamline and automate our processes, which allows us to offer our services at a lower cost than traditional financial institutions.",
     url: "https://theonebanq.com/",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     follow: false,
   },
   twitter: {
-    title: "OneBanq",
+    title: "OneBanq | The Future of Credit - Zero Interest on Cards",
     description:
       "ONEBANQ Technologies Limited is a financial technology company that provides innovative, affordable, and accessible financial services to individuals and businesses in Nigeria. We use technology to streamline and automate our processes, which allows us to offer our services at a lower cost than traditional financial institutions.",
     images: "/images/logo.png",
