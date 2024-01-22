@@ -16,6 +16,7 @@ const poppins = Poppins({
 });
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="w-full py-12 bg-black">
       <div className="flex flex-col items-center">
@@ -56,11 +57,19 @@ function Footer() {
           </div>
         </div>
         <div className="mt-[4.12rem] flex items-center gap-8">
-          <Link id="privacy" href={"/privacy"} className="font-bold text-white text-sm md:text-lg">
+          <Link
+            id="privacy"
+            href={"/privacy"}
+            className="font-bold text-white text-sm md:text-lg"
+          >
             Privacy
           </Link>
           <div className="text-base text-[#878787] font-normal">|</div>
-          <Link id="terms-of-use" href={"/terms-of-use"} className="font-bold text-white text-sm md:text-lg">
+          <Link
+            id="terms-of-use"
+            href={"/terms-of-use"}
+            className="font-bold text-white text-sm md:text-lg"
+          >
             Terms of use
           </Link>
           {/* <div className="text-base text-[#878787] font-normal">|</div>
@@ -71,7 +80,7 @@ function Footer() {
         <div
           className={`mt-[4.12rem] text-[#BDBDBD] font-normal text-sm ${poppins.className}`}
         >
-          © 2023 ONEBANQ. All Right Reserved
+          © {currentYear} ONEBANQ. All Right Reserved
         </div>
       </div>
     </footer>
