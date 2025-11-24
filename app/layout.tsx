@@ -53,6 +53,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>{children}</body>
       <Script src="https://cdn.pagesense.io/js/gigadatasystems/02b4e3cd1ff74be1b711a4fb2a907a67.js" />
+      <Script id="zoho-salesiq-init" strategy="afterInteractive" dangerouslySetInnerHTML={{
+        __html: `
+        window.$zoho=window.$zoho || {};
+        $zoho.salesiq=$zoho.salesiq||{ready:function(){}}
+        `,
+      }} />
+      <Script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siqe94bbb874bf42c3546f75b1d4e387196d8e5b91a458e985b40085255774dc300da9682fda1a980869d4590b770704cff" defer />
     </html>
   );
 }
