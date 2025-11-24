@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Content from "@/components/Privacy/Content";
 import Hero from "@/components/Privacy/Hero";
 import Financial from "@/components/financial";
@@ -12,6 +13,10 @@ const spaceGrotesk = Space_Grotesk({
   display: "swap",
   variable: "--font-space-grotesk",
 });
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy',
+};
 
 function Privacy() {
   return (
